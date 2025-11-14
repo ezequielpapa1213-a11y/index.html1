@@ -244,11 +244,10 @@ section {
 .servicios{
 
   height: auto;
- background: #ff69b4;
+ background: #fbd5e5;
   text-align: center;
   padding: 80px 20px;
   display: flex;
-  flex-direction: column;
   gap: 50px;
 }
 
@@ -269,10 +268,18 @@ section {
   height: 450px;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   transition: transform 0.3s, border-color 0.3s;
   text-align: justify;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.servicio p {
+  text-align: justify;
+  line-height: 1.5;
 }
 
 .servicio:hover {
